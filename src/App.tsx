@@ -53,13 +53,6 @@ function App() {
     return `${year}-${month}-${day}`;
   };
 
-  const formatDisplayDate = (date: Date) => {
-    const month = date.getMonth() + 1;
-    const day = date.getDate();
-    const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토'][date.getDay()];
-    return `${month}/${day} (${dayOfWeek})`;
-  };
-
   const getScheduleForDate = (date: string) => {
     return schedules.find(schedule => schedule.date === date) || { date, timeSlots: [] };
   };

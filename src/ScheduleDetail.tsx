@@ -33,7 +33,6 @@ const ScheduleDetail: React.FC<ScheduleDetailProps> = ({
     addTimeSlot,
     getScheduleForDate,
     deleteTimeSlot,
-    deleteSchedule,
     goBackToCalendar,
 }) => {
     return (
