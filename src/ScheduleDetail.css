@@ -1,0 +1,126 @@
+.app.schedule-page {
+  height: 100dvh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: none;
+}
+
+.schedule-header {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  margin-bottom: 0;
+  padding: 0 20px;
+  width: 100vw;
+  max-width: none;
+  box-sizing: border-box;
+  flex: 0 0 15%;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.schedule-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0 10px;
+  color: #333;
+  line-height: 1;
+}
+
+.back-btn {
+  font-size: 20px;
+  padding: 6px 14px;
+  border-radius: 7px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.schedule-main {
+  flex: 1 1 85%;
+  min-height: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-start;
+}
+
+.schedule-container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  width: 100vw;
+  max-width: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  flex: 1 1 0;
+  min-height: 0;
+  height: 750px;
+  margin-top: 13px;
+}
+
+.schedule-actions {
+  margin-bottom: 16px;
+  justify-content: flex-end;
+}
+
+.time-slot-form {
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 24px 20px;
+  flex: 1 1 0;
+  min-width: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.time-slots-list {
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 24px 20px;
+  flex: 2 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.time-slots-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+.time-slot-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 16px 20px;
+  margin-bottom: 0;
+  border-left: 4px solid #667eea;
+}
+
+.no-slots {
+  text-align: center;
+  color: #6c757d;
+  padding: 40px 0 20px 0;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
